@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const classifyBtn = document.getElementById('classify-btn');
     const resultText = document.getElementById('result-text');
 
-    const API_KEY = "YOUR_API_KEY";
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key=${API_KEY}`;
+    const API_KEY = "AIzaSyCTHxoGhC3NZ_FP4VCdqX1jODHhZQFFB8c";
+    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
     const cloudTypes = {
         0: 'Clear Sky',
