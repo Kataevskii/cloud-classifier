@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>☁️ Cloud Classifier</h1>
+            <p>Upload an image of the sky to classify the cloud type.</p>
+        </header>
+        <main>
+            <div class="upload-section">
+                <input type="file" id="image-input" accept="image/*">
+                <label for="image-input" class="upload-label">Choose an Image</label>
+            </div>
+            <div class="image-preview" id="image-preview">
+                <img src="" alt="Image preview" class="preview-image" id="preview-image">
+                <span class="preview-text" id="preview-text">Image Preview</span>
+            </div>
+            <button id="classify-btn">Classify Clouds</button>
+            <div id="result" class="result-section">
+                <h2>Classification Result:</h2>
+                <p id="result-text"></p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
